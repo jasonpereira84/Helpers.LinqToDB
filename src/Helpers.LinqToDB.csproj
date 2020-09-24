@@ -40,7 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Internal\" />
+    <Folder Include="_internalHelpers\" />
   </ItemGroup>
 
 </Project>

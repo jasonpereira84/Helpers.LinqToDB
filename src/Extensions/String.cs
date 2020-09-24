@@ -10,82 +10,80 @@ namespace JasonPereira84.Helpers
 
     namespace Extensions
     {
-        using Internal;
-
         public static partial class LinqToDB
         {
             [ExpressionMethod("IsNullImpl")]
             public static Boolean IsNull(this String @string) 
-                => @string.IsNull();
+                => _internalHelpers.IsNull(@string);
             public static Expression<Func<String, Boolean>> IsNullImpl()
-                => @string => @string.IsNull();
+                => @string => _internalHelpers.IsNull(@string);
 
             [ExpressionMethod("IsEmptyImpl")]
             public static Boolean IsEmpty(this String @string)
-                => @string.IsEmpty();
+                => _internalHelpers.IsEmpty(@string);
             public static Expression<Func<String, Boolean>> IsEmptyImpl()
-                => @string => @string.IsEmpty();
+                => @string => _internalHelpers.IsEmpty(@string);
 
             [ExpressionMethod("IsWhiteSpaceImpl")]
             public static Boolean IsWhiteSpace(this String @string)
-                => @string.IsWhiteSpace();
+                => _internalHelpers.IsWhiteSpace(@string);
             public static Expression<Func<String, Boolean>> IsWhiteSpaceImpl()
-                => @string => @string.IsWhiteSpace();
+                => @string => _internalHelpers.IsWhiteSpace(@string);
 
             [ExpressionMethod("IsNullOrEmptyImpl")]
             public static Boolean IsNullOrEmpty(this String @string)
-                => @string.IsNullOrEmpty();
+                => _internalHelpers.IsNullOrEmpty(@string);
             public static Expression<Func<String, Boolean>> IsNullOrEmptyImpl()
-                => @string => @string.IsNullOrEmpty();
+                => @string => _internalHelpers.IsNullOrEmpty(@string);
 
             [ExpressionMethod("IsEmptyOrWhiteSpaceImpl")]
             public static Boolean IsEmptyOrWhiteSpace(this String @string)
-                => @string.IsEmptyOrWhiteSpace();
+                => _internalHelpers.IsEmptyOrWhiteSpace(@string);
             public static Expression<Func<String, Boolean>> IsEmptyOrWhiteSpaceImpl()
-                => @string => @string.IsEmptyOrWhiteSpace();
+                => @string => _internalHelpers.IsEmptyOrWhiteSpace(@string);
 
             [ExpressionMethod("IsNullOrEmptyOrWhiteSpaceImpl")]
             public static Boolean IsNullOrEmptyOrWhiteSpace(this String @string)
-                => @string.IsNullOrEmptyOrWhiteSpace();
+                => _internalHelpers.IsNullOrEmptyOrWhiteSpace(@string);
             public static Expression<Func<String, Boolean>> IsNullOrEmptyOrWhiteSpaceImpl()
-                => @string => @string.IsNullOrEmptyOrWhiteSpace();
+                => @string => _internalHelpers.IsNullOrEmptyOrWhiteSpace(@string);
 
 
             [ExpressionMethod("IsNotNullImpl")]
             public static Boolean IsNotNull(this String @string)
-                => !@string.IsNull();
+                => !_internalHelpers.IsNull(@string);
             public static Expression<Func<String, Boolean>> IsNotNullImpl()
-                => @string => !@string.IsNull();
+                => @string => !_internalHelpers.IsNull(@string);
 
             [ExpressionMethod("IsNotEmptyImpl")]
             public static Boolean IsNotEmpty(this String @string)
-                => !@string.IsEmpty();
+                => !_internalHelpers.IsEmpty(@string);
             public static Expression<Func<String, Boolean>> IsNotEmptyImpl()
-                => @string => !@string.IsEmpty();
+                => @string => !_internalHelpers.IsEmpty(@string);
 
             [ExpressionMethod("IsNotWhiteSpaceImpl")]
             public static Boolean IsNotWhiteSpace(this String @string)
-                => !@string.IsWhiteSpace();
+                => !_internalHelpers.IsWhiteSpace(@string);
             public static Expression<Func<String, Boolean>> IsNotWhiteSpaceImpl()
-                => @string => !@string.IsWhiteSpace();
+                => @string => !_internalHelpers.IsWhiteSpace(@string);
 
             [ExpressionMethod("IsNotNullOrEmptyImpl")]
             public static Boolean IsNotNullOrEmpty(this String @string)
-                => !@string.IsNullOrEmpty();
+                => !_internalHelpers.IsNullOrEmpty(@string);
             public static Expression<Func<String, Boolean>> IsNotNullOrEmptyImpl()
-                => @string => !@string.IsNullOrEmpty();
+                => @string => !_internalHelpers.IsNullOrEmpty(@string);
 
             [ExpressionMethod("IsNotEmptyOrWhiteSpaceImpl")]
             public static Boolean IsNotEmptyOrWhiteSpace(this String @string)
-                => !@string.IsEmptyOrWhiteSpace();
+                => !_internalHelpers.IsEmptyOrWhiteSpace(@string);
             public static Expression<Func<String, Boolean>> IsNotEmptyOrWhiteSpaceImpl()
-                => @string => !@string.IsEmptyOrWhiteSpace();
+                => @string => !_internalHelpers.IsEmptyOrWhiteSpace(@string);
 
             [ExpressionMethod("IsNotNullOrEmptyOrWhiteSpaceImpl")]
             public static Boolean IsNotNullOrEmptyOrWhiteSpace(this String @string)
-                => !@string.IsNullOrEmptyOrWhiteSpace();
+                => !_internalHelpers.IsNullOrEmptyOrWhiteSpace(@string);
             public static Expression<Func<String, Boolean>> IsNotNullOrEmptyOrWhiteSpaceImpl()
-                => @string => !@string.IsNullOrEmptyOrWhiteSpace();
+                => @string => !_internalHelpers.IsNullOrEmptyOrWhiteSpace(@string);
 
         }
     }
