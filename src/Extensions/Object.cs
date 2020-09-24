@@ -4,7 +4,7 @@ using System.Collections;
 using System.Linq.Expressions;
 using System.Collections.Generic;
 
-namespace TeamHealth.Helpers
+namespace JasonPereira84.Helpers
 {
     using global::LinqToDB;
 
