@@ -3,11 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers.LinqToDB", "src\Helpers.LinqToDB.csproj", "{68656C70-6D69-6E71-3264-620000737263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers.LinqToDB", "Helpers.LinqToDB\Helpers.LinqToDB.csproj", "{68656C70-6D69-6E71-3264-620000737263}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{537ACCD1-022B-4AFF-BE23-E5E7ACFAA1F4}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{3CF01243-A79C-449F-BE18-00D7E4279A4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E0C62631-FD08-4E3D-8257-C979A9DEEF69}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\develop.yml = .github\workflows\develop.yml
+		.github\workflows\master.yml = .github\workflows\master.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
 	EndProjectSection
 EndProject
 Global
@@ -23,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CF01243-A79C-449F-BE18-00D7E4279A4B} = {537ACCD1-022B-4AFF-BE23-E5E7ACFAA1F4}
+		{E0C62631-FD08-4E3D-8257-C979A9DEEF69} = {3CF01243-A79C-449F-BE18-00D7E4279A4B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A61736F-6E70-6572-6569-726138340004}
