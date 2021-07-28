@@ -19,7 +19,10 @@
     <Title>JasonPereira84's LinqToDB helpers library</Title>
     <PackageDescription>LinqToDB helper methods, properties, objects etc.</PackageDescription>
     <PackageTags>C#, Library, Utils, Helpers, LinqToDB, Linq2DB</PackageTags>
-    <Authors>perjas2</Authors>
+    <RepositoryUrl>https://github.com/jasonpereira84/Helpers.Misc</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>jasonpereira84@gmail.com</Authors>
     <Version>2.0.2</Version>
 
   </PropertyGroup>
@@ -37,6 +40,13 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="linq2db.MySql" Version="3.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
