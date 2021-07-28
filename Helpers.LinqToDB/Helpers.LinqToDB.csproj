@@ -19,7 +19,7 @@
     <Title>JasonPereira84's LinqToDB helpers library</Title>
     <PackageDescription>LinqToDB helper methods, properties, objects etc.</PackageDescription>
     <PackageTags>C#, Library, Utils, Helpers, LinqToDB, Linq2DB</PackageTags>
-    <RepositoryUrl>https://github.com/jasonpereira84/Helpers.Misc</RepositoryUrl>
+    <RepositoryUrl>https://github.com/jasonpereira84/Helpers.LinqToDB</RepositoryUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Authors>jasonpereira84@gmail.com</Authors>
