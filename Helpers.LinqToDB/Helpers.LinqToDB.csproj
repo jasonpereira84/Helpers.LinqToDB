@@ -19,7 +19,7 @@
     <Title>JasonPereira84's LinqToDB helpers library</Title>
     <PackageDescription>LinqToDB helper methods, properties, objects etc.</PackageDescription>
     <PackageTags>C#, Library, Utils, Helpers, LinqToDB, Linq2DB</PackageTags>
-    <Authors>perjas2</Authors>
+    <Authors>jasonpereira84@gmail.com</Authors>
     <Version>2.0.2</Version>
 
   </PropertyGroup>
@@ -35,8 +35,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="linq2db.MySql" Version="3.4.2" />
+    <PackageReference Include="linq2db.MySql" Version="3.6.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>$(AssemblyName).Tests</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 
 </Project>
