@@ -38,8 +38,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="linq2db.MySql" Version="3.4.2" />
+    <PackageReference Include="linq2db.MySql" Version="4.4.0" />
   </ItemGroup>
 
   <ItemGroup>
