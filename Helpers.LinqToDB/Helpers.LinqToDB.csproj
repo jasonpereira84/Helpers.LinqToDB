@@ -2,7 +2,7 @@
 
   <PropertyGroup>
 
-    <TargetFrameworks>net6.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <Configuration>'$(Configuration)'</Configuration>
     <FileVersion>1.0.0.0</FileVersion>
     <OutputType>Library</OutputType>
@@ -45,8 +45,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="linq2db.MySql" Version="4.4.0" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="linq2db.MySql" Version="5.4.1.9" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>

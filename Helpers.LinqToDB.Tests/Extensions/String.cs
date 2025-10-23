@@ -34,7 +34,7 @@ namespace JasonPereira84.Helpers.LinqToDB.Tests
             {
                 {
                     var @string = default(String);
-                    Assert.ThrowsException<ArgumentNullException>(
+                    Assert.Throws<ArgumentNullException>(
                         () => @string.IsEmpty());
                 }
 
@@ -64,7 +64,7 @@ namespace JasonPereira84.Helpers.LinqToDB.Tests
             {
                 {
                     var @string = default(String);
-                    Assert.ThrowsException<ArgumentNullException>(
+                    Assert.Throws<ArgumentNullException>(
                         () => @string.IsWhiteSpace());
                 }
 
@@ -118,7 +118,7 @@ namespace JasonPereira84.Helpers.LinqToDB.Tests
             {
                 {
                     var @string = default(String);
-                    Assert.ThrowsException<ArgumentNullException>(
+                    Assert.Throws<ArgumentNullException>(
                         () => @string.IsWhiteSpace());
                 }
 
